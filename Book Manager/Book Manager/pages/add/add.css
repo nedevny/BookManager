@@ -1,0 +1,69 @@
+﻿.add section[role=main] {
+    margin-left: 120px;
+    margin-right: 120px;
+
+}
+
+@media screen and (-ms-view-state: snapped) {
+    .add section[role=main] {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    input, textarea {
+        display: block;
+    }
+}
+
+@media screen and (-ms-view-state: fullscreen-portrait) {
+    .add section[role=main] {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    #text-input-section {
+        float:left;
+        margin: 15px;
+    }
+
+    #buttons-section {
+        float:left;
+        margin: 15px;
+    }
+}
+
+    #text-input-section {
+        float:left;
+        margin: 15px;
+    }
+
+    #buttons-section {
+        float:left;
+        margin: 15px;
+    }
+
+input, textarea, select {
+    display: block;
+}
+#add-resume, #add-notes, #pick-book, #pick-single-file-button, #from-camera {
+    display: block;
+    margin-top: 10px;
+}
+
+#text-input-section {
+    height:100%;
+}
+
+#resume, #notes {
+    min-height:100px;
+    max-height: 300px;
+    height: 100%;
+    overflow:auto;
+}
+
+.hidden {
+    display:none;
+}
+
+.visible {
+    display: normal;
+}

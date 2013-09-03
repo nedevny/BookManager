@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Book Manager</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.1.0/css/ui-dark.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+
+    <!-- TestingSpliTemplate references -->
+    <link href="/css/default.css" rel="stylesheet" />
+    <script src="pages/add/add.js"></script>
+    <script src="js/models.js"></script>
+    <script src="js/tilenotifications.js"></script>
+    <script src="js/datalayer.js"></script>
+    <script src="js/viewmodels.js"></script>
+    <script src="/js/data.js"></script>
+    <script src="/js/default.js"></script>
+    <script src="/js/navigator.js"></script>
+    <script src="pages/search/searchResults.js"></script>
+</head>
+<body>
+    <div id="contenthost"
+         data-win-control="Application.PageControlNavigator"
+         data-win-options="{home: '/pages/items/items.html'}"></div>
+    <div id="appbar" data-win-control="WinJS.UI.AppBar">
+        <button onclick="WinJS.Navigation.navigate('/pages/add/add.html')"
+             data-win-control="WinJS.UI.AppBarCommand"
+             data-win-options="{id:'cmd', label:'Add Book', icon:'add'}"
+             type="button"></button>
+    </div>
+</body>
+</html>

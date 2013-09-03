@@ -1,0 +1,39 @@
+C:\Users\Nedko\Desktop\WinJS Project\TestingSpliTemplate\TestingSpliTemplate\bin\Debug\resources.pri
+C:\Users\Nedko\Desktop\WinJS Project\TestingSpliTemplate\TestingSpliTemplate\bin\Debug\AppxManifest.xml
+C:\Users\Nedko\Desktop\WinJS Project\TestingSpliTemplate\TestingSpliTemplate\bin\Debug\Book Manager.build.appxrecipe
+C:\Users\Nedko\Desktop\WinJS Project\TestingSpliTemplate\TestingSpliTemplate\bld\Debug\priconfig.xml.intermediate
+C:\Users\Nedko\Desktop\WinJS Project\TestingSpliTemplate\TestingSpliTemplate\bld\Debug\layout.resfiles.intermediate
+C:\Users\Nedko\Desktop\WinJS Project\TestingSpliTemplate\TestingSpliTemplate\bld\Debug\resources.resfiles.intermediate
+C:\Users\Nedko\Desktop\WinJS Project\TestingSpliTemplate\TestingSpliTemplate\bld\Debug\pri.resfiles.intermediate
+C:\Users\Nedko\Desktop\WinJS Project\TestingSpliTemplate\TestingSpliTemplate\bld\Debug\priconfig.xml
+C:\Users\Nedko\Desktop\WinJS Project\TestingSpliTemplate\TestingSpliTemplate\bld\Debug\layout.resfiles
+C:\Users\Nedko\Desktop\WinJS Project\TestingSpliTemplate\TestingSpliTemplate\bld\Debug\resources.resfiles
+C:\Users\Nedko\Desktop\WinJS Project\TestingSpliTemplate\TestingSpliTemplate\bld\Debug\pri.resfiles
+C:\Users\Nedko\Desktop\WinJS Project\TestingSpliTemplate\TestingSpliTemplate\bld\Debug\LanguageQualifiers.txt
+C:\Users\Nedko\Desktop\WinJS Project\TestingSpliTemplate\TestingSpliTemplate\bld\Debug\ProjectArchitectures.txt
+C:\Users\Nedko\Desktop\WinJS Project\TestingSpliTemplate\Book Manager\bin\Debug\resources.pri
+C:\Users\Nedko\Desktop\WinJS Project\TestingSpliTemplate\Book Manager\bin\Debug\AppxManifest.xml
+C:\Users\Nedko\Desktop\WinJS Project\TestingSpliTemplate\Book Manager\bin\Debug\Book Manager.build.appxrecipe
+C:\Users\Nedko\Desktop\WinJS Project\TestingSpliTemplate\Book Manager\bld\Debug\priconfig.xml.intermediate
+C:\Users\Nedko\Desktop\WinJS Project\TestingSpliTemplate\Book Manager\bld\Debug\layout.resfiles.intermediate
+C:\Users\Nedko\Desktop\WinJS Project\TestingSpliTemplate\Book Manager\bld\Debug\resources.resfiles.intermediate
+C:\Users\Nedko\Desktop\WinJS Project\TestingSpliTemplate\Book Manager\bld\Debug\pri.resfiles.intermediate
+C:\Users\Nedko\Desktop\WinJS Project\TestingSpliTemplate\Book Manager\bld\Debug\priconfig.xml
+C:\Users\Nedko\Desktop\WinJS Project\TestingSpliTemplate\Book Manager\bld\Debug\layout.resfiles
+C:\Users\Nedko\Desktop\WinJS Project\TestingSpliTemplate\Book Manager\bld\Debug\resources.resfiles
+C:\Users\Nedko\Desktop\WinJS Project\TestingSpliTemplate\Book Manager\bld\Debug\pri.resfiles
+C:\Users\Nedko\Desktop\WinJS Project\TestingSpliTemplate\Book Manager\bld\Debug\LanguageQualifiers.txt
+C:\Users\Nedko\Desktop\WinJS Project\TestingSpliTemplate\Book Manager\bld\Debug\ProjectArchitectures.txt
+C:\Users\Nedko\Desktop\WinJS Project\Book Manager\Book Manager\bin\Debug\resources.pri
+C:\Users\Nedko\Desktop\WinJS Project\Book Manager\Book Manager\bin\Debug\AppxManifest.xml
+C:\Users\Nedko\Desktop\WinJS Project\Book Manager\Book Manager\bin\Debug\Book Manager.build.appxrecipe
+C:\Users\Nedko\Desktop\WinJS Project\Book Manager\Book Manager\bld\Debug\priconfig.xml
+C:\Users\Nedko\Desktop\WinJS Project\Book Manager\Book Manager\bld\Debug\layout.resfiles
+C:\Users\Nedko\Desktop\WinJS Project\Book Manager\Book Manager\bld\Debug\resources.resfiles
+C:\Users\Nedko\Desktop\WinJS Project\Book Manager\Book Manager\bld\Debug\pri.resfiles
+C:\Users\Nedko\Desktop\WinJS Project\Book Manager\Book Manager\bld\Debug\LanguageQualifiers.txt
+C:\Users\Nedko\Desktop\WinJS Project\Book Manager\Book Manager\bld\Debug\ProjectArchitectures.txt
+C:\Users\Nedko\Desktop\WinJS Project\Book Manager\Book Manager\bld\Debug\priconfig.xml.intermediate
+C:\Users\Nedko\Desktop\WinJS Project\Book Manager\Book Manager\bld\Debug\layout.resfiles.intermediate
+C:\Users\Nedko\Desktop\WinJS Project\Book Manager\Book Manager\bld\Debug\resources.resfiles.intermediate
+C:\Users\Nedko\Desktop\WinJS Project\Book Manager\Book Manager\bld\Debug\pri.resfiles.intermediate

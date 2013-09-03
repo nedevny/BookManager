@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>splitPage</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.1.0/css/ui-dark.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+
+    <link href="/css/default.css" rel="stylesheet" />
+    <link href="/pages/split/split.css" rel="stylesheet" />
+    <script src="/js/data.js"></script>
+    <script src="/pages/split/split.js"></script>
+</head>
+    
+<body>
+    <!-- This template is used to display each item in the ListView declared below. -->
+    <div class="itemtemplate" data-win-control="WinJS.Binding.Template">
+        <div class="item">
+            <img class="item-image" src="#" data-win-bind="src: url; alt: name" />
+            <div class="item-info">
+                <h3 class="item-title win-type-ellipsis" data-win-bind="textContent: name"></h3>
+                <h6 class="item-subtitle win-type-ellipsis" data-win-bind="textContent: author"></h6>
+            </div>
+        </div>
+    </div>
+
+    <!-- The content that will be loaded and displayed. -->
+    <div class="splitpage fragment">
+        <header aria-label="Header content" role="banner">
+            <button class="win-backbutton" aria-label="Back" disabled type="button"></button>
+            <h1 class="titlearea win-type-ellipsis">
+                <span class="pagetitle"></span>
+            </h1>
+        </header>
+        <div class="itemlistsection" aria-label="List column">
+            <div class="itemlist win-selectionstylefilled" aria-label="List of this group's items" data-win-control="WinJS.UI.ListView" data-win-options="{ selectionMode: 'single', swipeBehavior: 'none', tapBehavior: 'toggleSelect' }"></div>
+        </div>
+        <div class="booksection" aria-atomic="true" aria-label="Item detail column" aria-live="assertive">
+            <article>
+                <header class="header">
+                    <div class="text">
+                        <h2 class="book-title win-type-ellipsis" data-win-bind="textContent: name" ></h2>
+                        <h4 class="book-author" data-win-bind="textContent: author"></h4>
+                        <button class="open-book">open book</button>
+                        <span class="book-id" data-win-bind="textContent: bookId" style="visibility:hidden"></span>
+                        <span id="ratingControl" data-win-control="WinJS.UI.Rating" data-win-bind="winControl.userRating: rating" data-win-options="{ disabled : true}" ></span>
+                    </div>
+                    <img class="book-image" src="#" data-win-bind="src: url; alt: name" />
+                </header>
+                <button id="show-resume">Show Resume</button>
+                <button id="show-notes">Show Notes</button>
+                <div id="book-resume" class="hidden" data-win-bind="textContent: resume" style="overflow:auto"></div>
+                <div id="book-notes"  class="hidden" data-win-bind="textContent: notes" style="overflow:auto"></div>
+            </article>
+        </div>
+    </div>
+</body>
+</html>

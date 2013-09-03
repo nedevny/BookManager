@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|AnyCPU">
+      <Configuration>Debug</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x86">
+      <Configuration>Debug</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|AnyCPU">
+      <Configuration>Release</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM">
+      <Configuration>Release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x86">
+      <Configuration>Release</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>6882ad36-f858-4c89-900d-d9d20722eda4</ProjectGuid>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '11.0'">
+    <VisualStudioVersion>11.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).Default.props" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).props" />
+  <PropertyGroup>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetPlatformVersion>8.0</TargetPlatformVersion>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <PackageCertificateKeyFile>TestingSpliTemplate_TemporaryKey.pfx</PackageCertificateKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppxManifest Include="package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+    <Content Include="css\default.css" />
+    <Content Include="images\animals.jpg" />
+    <Content Include="images\Art and Disaign.jpg" />
+    <Content Include="images\Biography.jpg" />
+    <Content Include="images\Chick lit.jpg" />
+    <Content Include="images\Children.jpg" />
+    <Content Include="images\Classics.jpg" />
+    <Content Include="images\Comics and Graphic Novels.jpg" />
+    <Content Include="images\Craft and Hobies.jpg" />
+    <Content Include="images\Crime.jpg" />
+    <Content Include="images\Fairy tail.jpg" />
+    <Content Include="images\Fantasy.jpg" />
+    <Content Include="images\Fiction.jpg" />
+    <Content Include="images\Food and Drink.jpg" />
+    <Content Include="images\History.jpg" />
+    <Content Include="images\Horror.jpg" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\main-background.jpg" />
+    <Content Include="images\Music.jpg" />
+    <Content Include="images\Philosophy.jpg" />
+    <Content Include="images\Poetry.jpg" />
+    <Content Include="images\Politics.jpg" />
+    <Content Include="images\Religion.jpg" />
+    <Content Include="images\Romance.jpg" />
+    <Content Include="images\School.jpg" />
+    <Content Include="images\Sci-fi.jpg" />
+    <Content Include="images\Science and nature.jpg" />
+    <Content Include="images\smalllogo.png" />
+    <Content Include="images\Society.jpg" />
+    <Content Include="images\splashscreen.png" />
+    <Content Include="images\Sport.jpg" />
+    <Content Include="images\storelogo.png" />
+    <Content Include="images\Teen.jpg" />
+    <Content Include="images\Thriller.jpg" />
+    <Content Include="images\Travel.jpg" />
+    <Content Include="images\War.jpg" />
+    <Content Include="images\widelogo.png" />
+    <Content Include="js\data.js" />
+    <Content Include="js\default.js" />
+    <Content Include="js\models.js" />
+    <Content Include="js\navigator.js" />
+    <Content Include="js\tilenotifications.js" />
+    <Content Include="pages\about\about.css" />
+    <Content Include="pages\about\about.html" />
+    <Content Include="pages\about\about.js" />
+    <Content Include="pages\add\add.css" />
+    <Content Include="pages\add\add.html" />
+    <Content Include="pages\add\add.js" />
+    <Content Include="pages\items\items.css" />
+    <Content Include="pages\items\items.html" />
+    <Content Include="pages\items\items.js" />
+    <Content Include="pages\search\searchResults.css" />
+    <Content Include="pages\search\searchResults.html" />
+    <Content Include="pages\search\searchResults.js" />
+    <Content Include="pages\split\split.css" />
+    <Content Include="pages\split\split.html" />
+    <Content Include="pages\split\split.js" />
+    <Content Include="default.html" />
+    <None Include="BookManager_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <SDKReference Include="Microsoft.WinJS.1.0, Version=1.0" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).targets" />
+  <!-- To modify your build process, add your task inside one of the targets below then uncomment
+       that target and the DisableFastUpToDateCheck PropertyGroup. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  <PropertyGroup>
+    <DisableFastUpToDateCheck>true</DisableFastUpToDateCheck>
+  </PropertyGroup>
+  -->
+</Project>
